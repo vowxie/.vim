@@ -75,3 +75,14 @@ set mouse=a         " Enable the use of the mouse.
  
 filetype plugin indent on
 syntax on
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'flazz/vim-colorschemes'
+
+Plug 'Valloric/YouCompleteMe'
+
+call plug#end()
+
+
+
