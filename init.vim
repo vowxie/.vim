@@ -82,6 +82,9 @@ Plug 'flazz/vim-colorschemes'
 
 Plug 'Valloric/YouCompleteMe'
 
+Plug 'artur-shaik/vim-javacomplete2'
+autocmd FileType java setlocal omnifunc=javacomplete#Complete
+
 call plug#end()
 
 
