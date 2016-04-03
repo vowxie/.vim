@@ -80,6 +80,8 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'flazz/vim-colorschemes'
 
+Plug 'tpope/vim-surround'
+
 Plug 'Valloric/YouCompleteMe'
 
 Plug 'mattn/emmet-vim'
