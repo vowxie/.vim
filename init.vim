@@ -83,6 +83,9 @@ Plug 'flazz/vim-colorschemes'
 Plug 'Valloric/YouCompleteMe'
 
 Plug 'mattn/emmet-vim'
+let g:user_emmet_mode='a'    "enable all function in all mode.
+let g:user_emmet_install_global = 0
+autocmd FileType html,css EmmetInstall
 
 Plug 'wakatime/vim-wakatime'
 
@@ -94,6 +97,7 @@ Plug 'scrooloose/syntastic'
 
 Plug 'vim-airline/vim-airline'
 set laststatus=2
+
 Plug 'vim-airline/vim-airline-themes'
 let g:airline_symbols = {}
 let g:airline_powerline_fonts=0
