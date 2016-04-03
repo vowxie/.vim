@@ -82,10 +82,13 @@ Plug 'flazz/vim-colorschemes'
 
 Plug 'Valloric/YouCompleteMe'
 
+Plug 'mattn/emmet-vim'
+
 Plug 'wakatime/vim-wakatime'
 
-Plug 'artur-shaik/vim-javacomplete2'
-autocmd FileType java setlocal omnifunc=javacomplete#Complete
+
+"Plug 'artur-shaik/vim-javacomplete2'
+"autocmd FileType java setlocal omnifunc=javacomplete#Complete
 
 Plug 'scrooloose/syntastic'
 
